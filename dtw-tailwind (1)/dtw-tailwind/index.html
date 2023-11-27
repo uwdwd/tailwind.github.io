@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans">
+	<body class="font-sans">
+		<!-- Menubar -->
+		<nav class="bg-gray-800 p-4">
+			<div class="container mx-auto flex justify-between items-center">
+			  <!-- Brand/Logo -->
+			  <a href="#" class="text-white text-lg font-bold">Alvin Angelo</a>
+	
+			  <!-- Navigation Links -->
+			  <div class="space-x-4">
+				<a href="landing-page.html#aboutme" class="text-white">About Me</a>
+				<a href="landing-page.html#portfolio" class="text-white">Portfolio</a>
+				<a href="landing-page.html#certificates" class="text-white">Certificates</a>
+				<a href="landing-page.html#contactus" class="text-white">Contact Us</a>
+			  </div>
+			</div>
+		  </nav>
+
+    <!-- About Me -->
+    <section id="aboutme" class="py-12 px-4">
+		<div
+		class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl"
+	>
+		<div class="md:flex">
+			<div class="md:shrink-0">
+				<img
+					class="h-48 w-full object-cover md:h-full md:w-48"
+					src="../Images/Alvin.png"
+					alt="Modern building architecture"
+				/>
+			</div>
+			<div class="p-8">
+				<div
+					class="uppercase tracking-wide text-sm text-indigo-500 font-semibold"
+				>
+					Alvin Angelo
+				</div>
+				<a
+					href="#"
+					class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+					>Mahasiswa Universitas Pelita Harapan</a
+				>
+				<p class="mt-2 text-slate-500">
+					Universitas UPH memberikan kesempatan bagus untuk mengembangkan pengetahuan dan keterampilan saya dalam dunia teknologi informasi. Melalui beberapa semester berkuliah di Universitas UPH, saya berhasil mempelajari banyak hal baru tentang dunia teknologi dan finance. Selama perjalanan pendidikan saya, saya juga aktif terlibat dalam berbagai proyek dan kegiatan ekstrakurikuler yang telah memperkaya pengalaman saya.
+				</p>
+			</div>
+		</div>
+	</div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="py-12 px-4 bg-gray-100 text-center">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold mb-4">Portfolio</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+			<div class="shadow-lg p-4 bg-white">
+				<img src="../Images/Falcon.jpg" alt="Certificate 1" class="mb-3" />
+				<p>Koordinator Publikasi di HMPSSI</p>
+			  </div>
+	
+			  <div class="shadow-lg p-4 bg-white">
+				<img src="../Images/Hmpssi1.png" alt="Certificate 1" class="mb-3" />
+				<p>Koordinator DDM di HMPSSI</p>
+			  </div>
+	
+			  <div class="shadow-lg p-4 bg-white">
+				<img
+				  src="../Images/1699281898697@2x.jpg"
+				  alt="Certificate 1"
+				  class="mb-3"
+				/>
+				<p>Koordinator Logistik di HMPSSI</p>
+			  </div>
+          <!-- Lebih banyak item portofolio di sini -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates -->
+    <section id="certificates" class="py-12 px-4 flex text-center">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold mb-4">Certificates</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
+          <div class="shadow-lg p-4 bg-white ">
+            <img src="../Images/Sertifikat Falcon 12 (pdf.io).png" alt="Certificate 1" class="mb-3" />
+            <p>Sertifikat Falcon</p>
+          </div>
+
+		  <div class="shadow-lg p-4 bg-white ">
+            <img src="../Images/Gathering Information Systems 2023 Certificate of Appreciation-1.png" alt="Certificate 1" class="mb-3" />
+            <p>Sertifikat Falcon</p>
+          </div> 
+
+		  <div class="shadow-lg p-4 bg-white ">
+            <img src="../Images/IMG_1083.png" alt="Certificate 1" class="mb-3" />
+            <p>Sertifikat Falcon</p>
+          </div> 
+          <!-- Lebih banyak item sertifikat di sini -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contactus" class="py-12 px-4 bg-gray-100">
+		<section class="container mt-3 section" id="contact">
+			<h1 class="text-center">Contact Me</h1>
+	
+			<div class="row mt-4">
+				<div class="col-lg-6">
+					<!-- to edit google map go to https://www.embed-map.com type your location, generate html code and copy the html  -->
+					<div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+						<div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+							<iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=UPH+College,+Kelapa+Dua,+Tangerang+Regency,+Banten,+Indonesia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+							</iframe>
+						</div>
+						<a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+						<style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+						</style>
+					</div>
+				</div>
+	
+				<div class="col-lg-6">
+					<form action="https://formspree.io/f/xaygzgkz" method="POST">
+						<input type="text" class="form-control form-control-lg" placeholder="Name" name="name" autocomplete="off" required>
+						<input type="email" class="form-control mt-3" placeholder="Email" name="email" autocomplete="off" required>
+						<input type="text" class="form-control mt-3" placeholder="Subject" name="subject"autocomplete="off" required>
+						<div class="mb-3 mt-3">
+							<textarea class="form-control" rows="5" id="comment" name="project_details" placeholder="Project Details" autocomplete="off" required></textarea>
+					  <button type="submit" class="btn btn-success mt-3">Contact Me</button>
+				   </form>
+				</div>            
+			</div>
+			 
+    </section>
+	
+  </body>
+</html>
